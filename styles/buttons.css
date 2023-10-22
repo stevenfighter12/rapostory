@@ -1,0 +1,51 @@
+.button {
+
+   margin-left: 50%;
+   height: 40px;
+   width: 150px;
+   font-weight: bold;
+   color: white;
+   border-radius: 5px;
+   font-size: medium;
+   
+
+
+
+ 
+   cursor: vertical-text;
+
+   background-color: rgb(20, 165, 165);
+   border:none;
+
+}
+
+.button:hover {
+
+background-color: rgb(21, 219, 219);    
+transition: background-color  350ms;
+box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.button:active {
+
+    background-color: rgb(255, 74, 3);    
+    transition-delay: 2s;
+    
+    
+
+    }
+
+
+.mero{
+
+    margin: left -30px;
+    height: 100px;
+}
+
+.searchbox{
+
+    flex: 1;
+
+    margin-top: 30px;
+    width: 1000;
+}
